@@ -7,36 +7,6 @@ export function main() {
 
     let opcao: number;
 
-    //Objetos da Classe Conta
-    //Novas instancias
-    const c1: Conta = new Conta (1, 1234, 1, "Letícia Marinho", 500000.00);
-    const c2: Conta = new Conta (2, 1234, 2, "Marcos Vinicius", 600000.00);
-
-    //Visualizando os dados da conta 01
-    // c1.visualizar();
-
-    //Visualizando os dados da conta 02
-    // c2.visualizar();
-
-    //Visualizando o saldo da conta 01
-    // console.log(`O saldo da conta 01 é: ${c1.saldo}`)
-    
-    //Saque na conta 1
-    // console.log(`Sacar 100 reais da conta C1: ${c1.sacar(100)}`)
-    // c1.visualizar;
-
-    //Saque na conta 2
-    // console.log(`Sacar 100 reais da conta C2: ${c2.sacar(700000)}`)
-    // c2.visualizar;
-        
-    //Depositar na conta 1
-    // console.log(`Sacar 100 reais da conta C1: ${c1.depositar(500)}`)
-    // c1.visualizar;
-
-    //Depositar na conta 1
-    // console.log(`Sacar 100 reais da conta C1: ${c2.depositar(100000)}`)
-    // c2.visualizar;
-
  //Objetos da Classe Conta
     //Novas instancias
     const cc1: ContaCorrente = new ContaCorrente (3, 1234, 1, "Amanda Magro", 100000.00, 1000000.00);
